@@ -1,0 +1,11 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="highlightColor" value="ed3450" />
+    <option name="highlightColorEnabled" value="true" />
+    <option name="highlightThickness" value="4" />
+    <option name="isContrastMode" value="true" />
+    <option name="accentColor" value="80cbc4" />
+    <option name="wallpaperSet" value="false" />
+    <option name="defaultBackground" value="" />
+  </component>
+</application>

@@ -1,0 +1,12 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e8ac07ba-2465-406e-9c5b-f84239fae58d" name="Homestead" url="http://www.cirrohealth.dev/">
+        <fileTransfer mountedRoot="$USER_HOME$/Homestead" accessType="MOUNT" />
+      </webServer>
+      <webServer id="b4434f35-88a6-4b06-8568-f3f852e93bac" name="Valet" url="http://meadowsconsole.dev/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
