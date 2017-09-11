@@ -7,6 +7,9 @@
       <webServer id="b4434f35-88a6-4b06-8568-f3f852e93bac" name="Valet" url="http://meadowsconsole.dev/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="f2327442-f3b5-45d6-ac61-bff1a640e6d8" name="Ticketbeast - Valet" url="http://ticketbeast.dev/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
