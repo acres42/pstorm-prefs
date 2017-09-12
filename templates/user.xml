@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="testf" value="/** test */&#10;function $functionName$ (){&#10;        //TEST CODE$END$&#10;}" description="PHPUnitTest function snippet" toReformat="false" toShortenFQNames="true">
+    <variable name="functionName" expression="underscoresToSpaces(String)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP Comment" value="true" />
+      <option name="PHP Expression" value="true" />
+    </context>
+  </template>
+</templateSet>
