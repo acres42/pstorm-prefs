@@ -39,7 +39,6 @@
     <option name="LAMBDA_BRACE_STYLE" value="2" />
     <option name="ELSE_ON_NEW_LINE" value="true" />
     <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
-    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
     <option name="SPACE_AFTER_TYPE_CAST" value="true" />
     <option name="ARRAY_INITIALIZER_WRAP" value="5" />
