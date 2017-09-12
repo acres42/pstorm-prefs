@@ -1,9 +1,10 @@
 <templateSet group="user">
-  <template name="testf" value="/** test */&#10;function $functionName$ (){&#10;        //TEST CODE$END$&#10;}" description="PHPUnitTest function snippet" toReformat="false" toShortenFQNames="true">
-    <variable name="functionName" expression="underscoresToSpaces(String)" defaultValue="" alwaysStopAt="false" />
+  <template name="testf" value="/** @test */&#10;function $test_name$ ($test_parameters$) {&#10;    $begin_typing$$END$&#10;&#10;}" description="PHPUnitTest function snippet" toReformat="false" toShortenFQNames="true">
+    <variable name="test_name" expression="decapitalize(String)" defaultValue="" alwaysStopAt="true" />
+    <variable name="test_parameters" expression="phpVar" defaultValue="" alwaysStopAt="false" />
+    <variable name="begin_typing" expression="" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="PHP Comment" value="true" />
-      <option name="PHP Expression" value="true" />
+      <option name="PHP" value="true" />
     </context>
   </template>
 </templateSet>
