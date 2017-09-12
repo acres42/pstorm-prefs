@@ -1,15 +1,10 @@
 <templateSet group="user">
-  <template name="@test" value="/** @test */&#10;function $test_name$ ($test_parameters$) {&#10;    $begin_typing$$END$&#10;&#10;}" description="PHPUnitTest function snippet" toReformat="false" toShortenFQNames="true">
+  <template name="testf" value="/** @test */&#10;function $test_name$($test_parameters$) {&#10;    $begin_typing$$END$&#10;}" description="PHPUnitTest function snippet" toReformat="false" toShortenFQNames="true">
     <variable name="test_name" expression="decapitalize(String)" defaultValue="" alwaysStopAt="true" />
     <variable name="test_parameters" expression="phpVar" defaultValue="" alwaysStopAt="false" />
     <variable name="begin_typing" expression="" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="PHP" value="true" />
-      <option name="PHP Class Member" value="false" />
-      <option name="PHP Comment" value="false" />
-      <option name="PHP Expression" value="false" />
-      <option name="PHP Statement" value="false" />
-      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="testcase" value="use Illuminate\Foundation\Testing\WithoutMiddleware;&#10;use Illuminate\Foundation\Testing\DatabaseMigrations;&#10;use Illuminate\Foundation\Testing\DatabaseTransactions;&#10;&#10;class $class_name$ extends TestCase&#10;{&#10;    $END$&#10;}" description="Create Test Case Class" toReformat="false" toShortenFQNames="true">
